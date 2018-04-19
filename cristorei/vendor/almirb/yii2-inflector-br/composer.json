@@ -1,0 +1,23 @@
+{
+  "name": "almirb/yii2-inflector-br",
+  "description": "Yii2 Inflector - Brazilian Portuguese Edition",
+  "license": "BSD-3-Clause",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Almir Bolduan",
+      "email": "almir.bsi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "almirb\\inflectorbr\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

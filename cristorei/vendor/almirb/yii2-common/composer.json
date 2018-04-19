@@ -1,0 +1,31 @@
+{
+  "name": "almirb/yii2-common",
+  "description": "Common classes for use with my Yii2 projects.",
+  "keywords": [
+    "yii2",
+    "common"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Almir Bolduan",
+      "email": "almir.bsi@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "almirb\\yii2common\\": "src"
+    }
+  }
+}
